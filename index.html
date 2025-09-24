@@ -8,12 +8,12 @@
   </head>
   <body>
     <h1>Grāmatu vērtēšana</h1>
-    <form id="myform">
+    <form id="myform" method="POST" action="/submit.php">
       <label for="fname">Vārds:</label><br />
       <input type="text" id="fname" name="fname" /><br />
       <label for="lname">Uzvārds:</label><br />
       <input type="text" id="lname" name="lname" /><br />
-      <label for="level">Izvēlies līmeni:</label><br />
+      <label for="levels">Izvēlies līmeni:</label><br />
 
       <select name="levels" id="levels">
         <option value="1">Nelasāma</option>
@@ -27,7 +27,8 @@
       <label for="name">Nosaukums: </label><br />
       <input type="text" id="name" name="name" /><br />
       <br />
-      <textarea name="apraksts" form="form">Ievadi aprakstu šeit...</textarea>
+      <label for="comment">Apraksts</label><br />
+      <textarea name="comment" form="form">...</textarea>
       <br />
       <br />
       <input type="submit" value="Iesniegt" />
