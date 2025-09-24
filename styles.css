@@ -1,0 +1,9 @@
+form {
+    width:600px;
+    margin:auto;
+    border-style:dotted;
+}
+label {
+    font-weight:bold;
+    font-size:2rem;
+}

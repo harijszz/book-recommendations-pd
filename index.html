@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Harijs PD</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <h1>Grāmatu vērtēšana</h1>
+    <form id="myform">
+      <label for="fname">Vārds:</label><br />
+      <input type="text" id="fname" name="fname" /><br />
+      <label for="lname">Uzvārds:</label><br />
+      <input type="text" id="lname" name="lname" /><br />
+      <label for="level">Izvēlies līmeni:</label><br />
+
+      <select name="levels" id="levels">
+        <option value="1">Nelasāma</option>
+        <option value="2">Slikta</option>
+        <option value="3">Viduvēja</option>
+        <option value="4">Laba</option>
+        <option value="5">Lieliska</option>
+        <br />
+      </select>
+      <br />
+      <label for="name">Nosaukums: </label><br />
+      <input type="text" id="name" name="name" /><br />
+      <br />
+      <textarea name="apraksts" form="form">Ievadi aprakstu šeit...</textarea>
+      <br />
+      <br />
+      <input type="submit" value="Iesniegt" />
+    </form>
+  </body>
+</html>
